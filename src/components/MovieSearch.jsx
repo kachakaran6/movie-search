@@ -42,6 +42,7 @@ const MovieSearch = () => {
         setMovies([]);
         setError("No movies found!");
       }
+      // eslint-disable-next-line no-unused-vars
     } catch (err) {
       setError("Something went wrong!");
     } finally {
